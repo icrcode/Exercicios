@@ -7,7 +7,7 @@ function balancoMawer() {
     let receitaLiquida = 0;
     let prejuizo = false;
 
-    while (contador <= 12) {
+    while (contador <= 3) {
         receitaMensal = prompt('Informe a receita mensal para o ' + contador + 'º mês: ');
         receitaAnual = receitaAnual + parseFloat(receitaMensal);
         despesaMensal = prompt('Informe a depesa mensal para o ' + contador + 'º mês: ');

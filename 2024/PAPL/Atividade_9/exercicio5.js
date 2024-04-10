@@ -7,6 +7,7 @@ function viceVersa() {
         alert("O número informado é nulo.");
     }
     else if(numero % 2 == 0) {
+        //pesquisa o que é um modulo! %
         alert("Número par informado. Convertendo para ímpar...");
         numero++;
         alert("Conversão concluída: " + numero);
