@@ -16,6 +16,6 @@ function somarNumeros() {
     }
 
     alert('A soma total dos ' + contador + ' números inteiros informados é: ' + soma);
-    //o sinal de mais é para concatenar!
+    //o sinal de mais é para concatenar.
 
 }
