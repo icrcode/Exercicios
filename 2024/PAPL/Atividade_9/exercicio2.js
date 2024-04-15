@@ -8,7 +8,7 @@ function lancamentoSoyuz() {
         //contagem = contagem - 1
         
         //informa a iginição
-        if (contagem == 6) {
+        if (contagem = = 6) {
             console.log("зажигание...");
         }
         // traz o lançamento

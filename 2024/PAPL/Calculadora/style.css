@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f7; /* Cor de fundo padrão do estilo Apple */
+  }
+  
+  div {
+    background-color: #ffffff; /* Cor de fundo do div */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 300px; /* Largura do div */
+  }
+  
+  h1 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  select, input, button {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+    border: 1px solid #e0e0e0; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+  }
+  
+  button {
+    background-color: #787a79; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    cursor: pointer; /* Cursor ao passar por cima */
+    transition: background-color 0.3s; /* Transição de cor */
+  }
+  
+  button:hover {
+    background-color: #000000; /* Cor de fundo ao passar por cima */
+  }
+  
+  span {
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  /* Estilo para o primeiro número e o resultado */
+  .primeiro {
+    color: #10386a; /* Cor azul para destaque */
+  }
+  
+  /* Estilo para o sinal da operação */
+  .sinal {
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+    display: block; /* Exibe em bloco */
+    text-align: center; /* Centraliza o texto */
+  }
+  
